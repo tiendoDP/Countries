@@ -18,7 +18,7 @@ function App() {
                 <Header />
                 <ContentContainer>
                     <Routes>
-                        <Route exact path="/" element={<MainContent />} />
+                        <Route exact path='/Countries' element={<MainContent />} />
                         <Route path="/regions/:regionName" element={<MainContent />} />
                         <Route path="/country/:countryName" element={<CountryDetail />} />
                         <Route path="/search/:countryName" element={<MainContent />} />
