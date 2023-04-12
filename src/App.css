@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+:root {
+    --ToggleColor: hsl(208, 59%, 41%);
+    --IconColor: hsl(51, 96%, 61%);
+    --TextShadow: 2px 3px 3px rgba(0,0,0,0.3);
+    --BoxShadow: 0 4px 10px rgba(0,0,0,0.3);
+    --OptionItemBackground: rgb(1,147,207);
+}
+
+.dark {
+    background-color: rgba(99, 114, 136, 0.644);
+    color: #fff;
+    transition: all 0.1s ease;
+    box-shadow: var(--BoxShadow);
+}
+
+.light {
+    background-color: #fff;
+    transition: all 0.1s ease;
+    color: #000;
+    box-shadow: var(--BoxShadow);
+}
+
+ul, li, ol {
+    list-style: none;
+}
