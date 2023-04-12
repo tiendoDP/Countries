@@ -8,7 +8,7 @@ function Header() {
     const theme = useContext(ThemeContext)
     return (
         <HeaderPane className={theme.toggle}>
-            <Link to={'/'}>
+            <Link to={'/Countries'}>
             <span>Where in the world?</span>
             </Link>
             <SwitchMode />
